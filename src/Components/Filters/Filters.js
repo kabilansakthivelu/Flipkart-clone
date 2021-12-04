@@ -93,12 +93,12 @@ const Filters = () => {
         if(document.getElementById("priceLowToHigh").checked){
            if(arr.length !== 0){
             arr.sort(function(a,b){
-                  return a - b;
+                  return a.newPrice - b.newPrice;
                   });
            } 
            else{
                arr = products.sort(function(a,b){
-                   return a -  b;
+                   return a.newPrice - b.newPrice;
                    });
            }
         }
@@ -106,12 +106,12 @@ const Filters = () => {
         if(document.getElementById("priceHighToLow").checked){
            if(arr.length !== 0){
             arr.sort(function(a,b){
-                  return b - a;
+                  return b.newPrice - a.newPrice;
                   });
            } 
            else{
                arr = products.sort(function(a,b){
-                   return b -  a;
+                   return b.newPrice - a.newPrice;
                    });
            }
         }
