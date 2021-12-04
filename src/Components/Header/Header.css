@@ -1,0 +1,42 @@
+.headerBar{
+    @apply bg-blue-500 w-screen h-14 text-white flex flex-row items-center justify-center fixed
+}
+.logoSection{
+    @apply cursor-pointer
+}
+.logoName{
+    @apply font-bold italic text-xl
+}
+.exploreOption{
+    @apply flex flex-row
+}
+.exploreOptionText{
+    @apply italic text-xs hover:underline 
+}
+.explorePlusOption, .explorePlusIcon{
+    @apply text-yellow-400 
+}
+.searchTab{
+    @apply w-2/6 h-8 flex flex-row bg-white ml-3 mr-32 items-center
+}
+.searchField{
+    @apply w-11/12 pl-4 outline-none h-full
+}
+.searchIcon{
+    @apply text-blue-500 cursor-pointer
+}
+.loginButton{
+    @apply bg-white w-28 h-7 flex items-center justify-center cursor-pointer
+}
+.loginBtnText{
+    @apply text-blue-500 font-bold
+}
+.moreNavBar, .cartNavBar{
+    @apply flex flex-row items-center justify-center ml-10
+}
+.moreNavbarText, .cartNavbarText{
+    @apply font-semibold
+}
+.cartNavbarIcon, .moreNavbarIcon{
+    @apply mx-2
+}

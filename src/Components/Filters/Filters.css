@@ -1,0 +1,18 @@
+.filtersSection{
+    @apply bg-white h-screen w-72 float-left ml-20 mt-14 p-4 fixed
+}
+.sectionHeader{
+    @apply font-semibold mb-6
+}
+.priceSectionHeading, .sizeSectionHeading, .brandSectionHeading, .idealForSectionHeading {
+    @apply font-semibold text-sm my-3
+}
+.priceSectionFieldLabel, .sizeSectionFieldLabel{
+    @apply text-sm ml-2 cursor-pointer
+}
+.inputField{
+    @apply cursor-pointer
+}
+.clearFiltersButton{
+    @apply mt-4 font-bold text-blue-500
+}
